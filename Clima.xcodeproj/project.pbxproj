@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B25467A222493BF0044BE64 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0B254679222493BF0044BE64 /* Podfile */; };
 		0B83806F2208E9450024DB1E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B83806E2208E9450024DB1E /* SettingsViewController.swift */; };
 		0C0A575EC45D5A6516A0B30B /* Pods_Clima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F46A7453546E90500642DFB /* Pods_Clima.framework */; };
 		63E28AD11B99C32400FBF6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */; };
@@ -19,7 +20,40 @@
 		AD05C7BE20EBD80E00915CD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD05C7BD20EBD80D00915CD8 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0B254671222493B20044BE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B25466A222493B20044BE64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F303F6F31AB0F93A4F4683F74A258E63;
+			remoteInfo = Alamofire;
+		};
+		0B254673222493B20044BE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B25466A222493B20044BE64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2671260091A75C480C06470A2E8E939;
+			remoteInfo = "Pods-Clima";
+		};
+		0B254675222493B20044BE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B25466A222493B20044BE64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 742514A96D59CADF774E106DD18233AD;
+			remoteInfo = SVProgressHUD;
+		};
+		0B254677222493B20044BE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B25466A222493B20044BE64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E3DA8036972058FDB2D87045453FEE53;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0B25466A222493B20044BE64 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		0B254679222493BF0044BE64 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0B83806E2208E9450024DB1E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0F46A7453546E90500642DFB /* Pods_Clima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E28ACB1B99C32400FBF6E0 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B25466B222493B20044BE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B254672222493B20044BE64 /* Alamofire.framework */,
+				0B254674222493B20044BE64 /* Pods_Clima.framework */,
+				0B254676222493B20044BE64 /* SVProgressHUD.framework */,
+				0B254678222493B20044BE64 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4C9FF570FB36677956356C58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +108,7 @@
 				63E28ACD1B99C32400FBF6E0 /* Clima */,
 				63E28ACC1B99C32400FBF6E0 /* Products */,
 				C6E54054C42C857CB97B05F5 /* Pods */,
+				0B25466A222493B20044BE64 /* Pods.xcodeproj */,
 				4C9FF570FB36677956356C58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +172,7 @@
 		C6E54054C42C857CB97B05F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0B254679222493BF0044BE64 /* Podfile */,
 				C42A3C8142E619541CE1F853 /* Pods-Clima.debug.xcconfig */,
 				A07F1438092890D6E5D5C1E1 /* Pods-Clima.release.xcconfig */,
 			);
@@ -181,6 +228,12 @@
 			mainGroup = 63E28AC21B99C32400FBF6E0;
 			productRefGroup = 63E28ACC1B99C32400FBF6E0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0B25466B222493B20044BE64 /* Products */;
+					ProjectRef = 0B25466A222493B20044BE64 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				63E28ACA1B99C32400FBF6E0 /* Clima */,
@@ -188,11 +241,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0B254672222493B20044BE64 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0B254671222493B20044BE64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0B254674222493B20044BE64 /* Pods_Clima.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Clima.framework;
+			remoteRef = 0B254673222493B20044BE64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0B254676222493B20044BE64 /* SVProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SVProgressHUD.framework;
+			remoteRef = 0B254675222493B20044BE64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0B254678222493B20044BE64 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 0B254677222493B20044BE64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		63E28AC91B99C32400FBF6E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B25467A222493BF0044BE64 /* Podfile in Resources */,
 				63E28AF71B99C36100FBF6E0 /* Images.xcassets in Resources */,
 				63E28AFF1B99C3B300FBF6E0 /* LaunchScreen.xib in Resources */,
 				AD05C7BE20EBD80E00915CD8 /* README.md in Resources */,
